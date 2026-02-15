@@ -20,7 +20,7 @@ import (
 
 	"github.com/panjf2000/ants/v2"
 
-	"github.com/panjf2000/gnet/v2/pkg/logging"
+	"gnet/pkg/logging"
 )
 
 const (

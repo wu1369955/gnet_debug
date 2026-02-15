@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Test File",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${workspaceFolder}",
+      "env": {},
+      "args": ["-test.run", "TestYourSpecificFunction"],
+      "showLog": true
+    },
+    {
+      "name": "Debug All Tests",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${workspaceFolder}",
+      "env": {},
+      "showLog": true
+    },
+    {
+      "name": "Debug Package Tests",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${fileDirname}",
+      "env": {},
+      "showLog": true
+    }
+  ]
+}
